@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background: #f4f4f4;
+    color: #1c1a17;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    width: min(860px, calc(100% - 32px));
+    margin: 32px auto 48px;
+}
+
+h1 {
+    margin: 0 0 8px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 34px;
+    font-weight: normal;
+}
+
+.intro,
+.commands {
+    margin: 0 0 12px;
+    line-height: 1.45;
+}
+
+code {
+    font-family: "SFMono-Regular", Consolas, monospace;
+}
+
+.terminal {
+    background: #1c1a17;
+    color: #f4f1ea;
+    border-radius: 8px;
+    padding: 16px;
+    min-height: 360px;
+    font-family: "SFMono-Regular", Consolas, monospace;
+    font-size: 15px;
+}
+
+#log {
+    margin: 0 0 8px;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#prompt {
+    color: #8fd18f;
+}
+
+#command {
+    flex: 1;
+    border: 0;
+    background: transparent;
+    color: #f4f1ea;
+    font: inherit;
+    outline: none;
+    padding: 0;
+}
